@@ -1,0 +1,500 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/weqiang/source/doc/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities.html",
+          "hash": "8mmKxQRcrpfbWd6dVmSUJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.CopyContructorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.CopyContructorType.html",
+          "hash": "ETlQWs37q4Zi27epav+xnw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeferredInvocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeferredInvocation.html",
+          "hash": "D1lR7KUxKWf1/OVTs3x4xw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.Delta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.Delta.html",
+          "hash": "gfrf16A5g+R2gw9koRp3Hg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeltaIgnoreAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeltaIgnoreAttribute.html",
+          "hash": "53JvGgDRVaiYwzj+RM6woQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeltaResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeltaResolver.html",
+          "hash": "iJx0j6jR610yl6Bp+OPB8w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ElementCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ElementCondition.html",
+          "hash": "83+wWGFw3AiftYrfJ7TUFw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ElementToRemove.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ElementToRemove.html",
+          "hash": "mjsWQ0Qp5pa+gsTjya5zOg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.FactorySuccessType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.FactorySuccessType.html",
+          "hash": "Pn6p+6NDha+Lch4vSBfC5A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.InvokeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.InvokeAttribute.html",
+          "hash": "J9vMULTg+/dNZNP7YsxKHA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.IsEqualStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.IsEqualStrategy.html",
+          "hash": "wP1eubgURiNgOlfHo5qidA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.IsValueTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.IsValueTypeAttribute.html",
+          "hash": "V9WOkgHuf+fh4z5yM9Q6Yg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.Json.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.Json.html",
+          "hash": "IfEY5wdrlsPWRQw3aokt0w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.KnownTypesBinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.KnownTypesBinder.html",
+          "hash": "/jhatuPbF+Mvm6hQzpVpQQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ListDelta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ListDelta.html",
+          "hash": "0qrL9uJ5pcDRJOEFdPlvlg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ListElementDelta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ListElementDelta.html",
+          "hash": "8g08ITiK/JXNqxx0g4XFsg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MapContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MapContext.html",
+          "hash": "j+ZK2ADwYj2Bst/aKHmEwA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MappingMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MappingMethod.html",
+          "hash": "/Rde1FhxookID7vX4p4fpQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MappingMethodGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MappingMethodGroup.html",
+          "hash": "i4qk6IKkKNW5CSiUzXGbPA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MappingMethodStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MappingMethodStrategy.html",
+          "hash": "mvWKImCKLnzbeiI7z1DLFA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchAttribute.html",
+          "hash": "jMzF2OHQeCBGaX52lUTiyw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchPair.html",
+          "hash": "liqY2GU0UOKvIiLH3C8n7Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchStack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchStack.html",
+          "hash": "xMyNEI7/E7d3jKHDRc0/4g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchTypeAttribute.html",
+          "hash": "ovuk2Gds6Y1EQdxYjMLfPQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchTypes.html",
+          "hash": "F1C3yxe8Q70ET2uSdai0rg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchUnavailableWhemMappingFromCartographerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchUnavailableWhemMappingFromCartographerAttribute.html",
+          "hash": "Vqw0vh6TEj66goWr7trVfA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ModelMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ModelMapper.html",
+          "hash": "cVzwBIJ94dXwb5vOBe6dcA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ModelMapperIgnoreAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ModelMapperIgnoreAttribute.html",
+          "hash": "2o/82708Zk3wooZHM/2K0Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.PropertyDelta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.PropertyDelta.html",
+          "hash": "N7qi1BXhh4AAVywn+NGgaw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ReflectionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ReflectionHelper.html",
+          "hash": "SK4P21ldV1piVJnXz3EdeA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.RemoveElementWithValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.RemoveElementWithValue.html",
+          "hash": "mEUrVAdpFRALcJ8vBJnJRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.TypeClassification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.TypeClassification.html",
+          "hash": "Kq4ik/0Uu+c+ww4vD4VOQQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "ENCHdiPa0vbTemsH+gDwgg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "1VK4G0sgSPsl9wwFh4jReg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "DHvQLzpZ6ga5iQX0eNFoFw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "vOf2CnJ843qe1BJxbLyHvw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
