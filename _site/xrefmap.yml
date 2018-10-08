@@ -300,6 +300,32 @@ references:
   isSpec: "True"
   fullName: Microsoft.SupplyChain.Utilities.DeltaResolver.EquivalentElementInList
   nameWithType: DeltaResolver.EquivalentElementInList
+- uid: Microsoft.SupplyChain.Utilities.DeltaResolver.GetMethod(System.Type,System.String,System.Type[])
+  name: GetMethod(Type, String, Type[])
+  href: api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeltaResolver.html#Microsoft_SupplyChain_Utilities_DeltaResolver_GetMethod_System_Type_System_String_System_Type___
+  commentId: M:Microsoft.SupplyChain.Utilities.DeltaResolver.GetMethod(System.Type,System.String,System.Type[])
+  fullName: Microsoft.SupplyChain.Utilities.DeltaResolver.GetMethod(Type, String, Type[])
+  nameWithType: DeltaResolver.GetMethod(Type, String, Type[])
+- uid: Microsoft.SupplyChain.Utilities.DeltaResolver.GetMethod*
+  name: GetMethod
+  href: api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeltaResolver.html#Microsoft_SupplyChain_Utilities_DeltaResolver_GetMethod_
+  commentId: Overload:Microsoft.SupplyChain.Utilities.DeltaResolver.GetMethod
+  isSpec: "True"
+  fullName: Microsoft.SupplyChain.Utilities.DeltaResolver.GetMethod
+  nameWithType: DeltaResolver.GetMethod
+- uid: Microsoft.SupplyChain.Utilities.DeltaResolver.GetProperty(System.Type,System.String)
+  name: GetProperty(Type, String)
+  href: api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeltaResolver.html#Microsoft_SupplyChain_Utilities_DeltaResolver_GetProperty_System_Type_System_String_
+  commentId: M:Microsoft.SupplyChain.Utilities.DeltaResolver.GetProperty(System.Type,System.String)
+  fullName: Microsoft.SupplyChain.Utilities.DeltaResolver.GetProperty(Type, String)
+  nameWithType: DeltaResolver.GetProperty(Type, String)
+- uid: Microsoft.SupplyChain.Utilities.DeltaResolver.GetProperty*
+  name: GetProperty
+  href: api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeltaResolver.html#Microsoft_SupplyChain_Utilities_DeltaResolver_GetProperty_
+  commentId: Overload:Microsoft.SupplyChain.Utilities.DeltaResolver.GetProperty
+  isSpec: "True"
+  fullName: Microsoft.SupplyChain.Utilities.DeltaResolver.GetProperty
+  nameWithType: DeltaResolver.GetProperty
 - uid: Microsoft.SupplyChain.Utilities.DeltaResolver.IsEqual(System.Object,System.Object)
   name: IsEqual(Object, Object)
   href: api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeltaResolver.html#Microsoft_SupplyChain_Utilities_DeltaResolver_IsEqual_System_Object_System_Object_
