@@ -319,7 +319,33 @@
   
   <a id="Microsoft_SupplyChain_Utilities_ModelMapper_Map_" data-uid="Microsoft.SupplyChain.Utilities.ModelMapper.Map*"></a>
   <h4 id="Microsoft_SupplyChain_Utilities_ModelMapper_Map__1_System_Object_System_Boolean_Microsoft_SupplyChain_Utilities_MapContext_" data-uid="Microsoft.SupplyChain.Utilities.ModelMapper.Map``1(System.Object,System.Boolean,Microsoft.SupplyChain.Utilities.MapContext)">Map&lt;TOTYPE&gt;(Object, Boolean, MapContext)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Instantiates a TOTYPE as &quot;to&quot; and populates &quot;to&quot; with mapped values of &quot;from&quot;.
+Any property that is the same position with the same name in the from and to simply directly maps or maps after a type casting.
+Either the type of the &quot;to&quot; or the type of &quot;from&quot; is considered the &quot;cartographer&quot; based on the isTheFromTypeTheCartographer parameter.
+The cartographer is the type that might contain mapping attributes ([Map], [Invoke]) and mapping methods that handle any mapping that is not directly from a propery of like position and name</p>
+<p>There are three ways the map knows what to map</p>
+<ol>
+<li>There are mapping methods cooresponding to a cartographer's property (described below) that are invoked to do the mapping for that property</li>
+<li>There is a MatchAttribute on a cartographer property that names the property on the noncartographer type that it maps to</li>
+<li>The cartographer property maps to a property on the noncartographer type of the exact same name.</li>
+</ol>
+<p>See Extensions.Test.ModelMapperTest for a simple example of all the major functionality of ModelMapper.</p>
+<p>MAPPING METHODS
+To get map to invoke a mapping method, it must following all the following rules
+Rule 1) The method must be in the cartographer class
+Rule 2) It's name must be &quot;To_&quot; + NAME or &quot;From_&quot; + NAME or &quot;Match_&quot; + NAME
+where NAME = NAMEOFCARTOGRAPHERPROPERTYTOMAP [(optionally) + &quot;<em>&quot; + ANYTHING]
+Rule 3) At least one method must not contain the optional part of the NAME just described in Rule 2.
+Rule 4) The To</em> method must map to the cartographer property from the noncartographer property
+Rule 5) The From_ method must map from the cartographer property to the noncartographer property
+Rule 6) Their signature must match (a) if they map a property that is not an IList property or match (b) or (c) if they map an IList property
+(a) public void METHODNAME(MapContext mapContext, NONCARTOGRAPHERTYPE noncartographerObject)
+if METHODNAME == &quot;Match_&quot; + NAME or if nethier of the (b) and (c) conditions belwo are true
+(b) public void METHODNAME(MapContext mapContext, NONCARTOGRAPHERTYPE noncartographerObject, FROMLISTELEMENTTYPE fromListElement)
+if Strategy == MappingMethodStrategy.AsFactory
+(c) public void METHODNAME(MapContext mapContext, NONCARTOGRAPHERTYPE noncartographerObject, FROMLISTELEMENTTYPE fromListElement, TOLISTELEMENTTYPE toListElement)
+if Strategy == MappingMethodStrategy.AfterFactory or AfterInitialization</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -433,7 +459,12 @@
   
   <a id="Microsoft_SupplyChain_Utilities_ModelMapper_TryCast_" data-uid="Microsoft.SupplyChain.Utilities.ModelMapper.TryCast*"></a>
   <h4 id="Microsoft_SupplyChain_Utilities_ModelMapper_TryCast_System_Object_System_Type_System_Object__" data-uid="Microsoft.SupplyChain.Utilities.ModelMapper.TryCast(System.Object,System.Type,System.Object@)">TryCast(Object, Type, Object)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Cast a &quot;from&quot; object to a &quot;to&quot; object of a toType Type.
+If the &quot;to&quot; is directly assignable from the &quot;from&quot; it will be.
+If it must be cast then reflection will be used to find every possible cast availabe on either type or ancestor of either type
+The first cast found will be used to cast the source to a new destionation object of destination type.
+If none of this exists and either the &quot;to&quot; or &quot;from&quot; are an enum then it will attempt to convert between them</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -452,12 +483,14 @@
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">from</span></td>
-        <td></td>
+        <td><p>The from object to be assigned or cast</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">toType</span></td>
-        <td></td>
+        <td><p>The toination type required</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span></td>

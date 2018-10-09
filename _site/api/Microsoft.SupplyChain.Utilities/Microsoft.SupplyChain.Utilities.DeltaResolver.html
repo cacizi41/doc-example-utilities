@@ -73,7 +73,12 @@
   
   <h1 id="Microsoft_SupplyChain_Utilities_DeltaResolver" data-uid="Microsoft.SupplyChain.Utilities.DeltaResolver" class="text-break">Class DeltaResolver
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>DeltaResolver exists to calculate the difference between two hierarchical object graphs rooted by the left and right parameters of the Resolve method
+It does not by itself do anything with the Delta it calculates and returns from the Resolve method.
+It is intended to be used in conjunction with classes such as DeltaRecorder and DeltaRestorer.
+Notice that it exists in the Extensions namespace because is has no dependencies on the definitions of the input classes.
+However, it may be necessary to provide your own IsEqualsStrategy instead of the default IsEquals method to adapt to your libraries design patterns for identity.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -302,7 +307,8 @@
   
   <a id="Microsoft_SupplyChain_Utilities_DeltaResolver_IsEqual_" data-uid="Microsoft.SupplyChain.Utilities.DeltaResolver.IsEqual*"></a>
   <h4 id="Microsoft_SupplyChain_Utilities_DeltaResolver_IsEqual_System_Object_System_Object_" data-uid="Microsoft.SupplyChain.Utilities.DeltaResolver.IsEqual(System.Object,System.Object)">IsEqual(Object, Object)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Generically determines if to objects x and y should be considered equal.  This method may need to be revised over time to accomodate various standards for identity</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

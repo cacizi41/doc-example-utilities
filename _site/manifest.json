@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.SupplyChain.Utilities.html",
-          "hash": "G2NgBbem2Q+5GCGDS84zxA=="
+          "hash": "qvY7JnYzO89CEOQwTaEMEw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "ETlQWs37q4Zi27epav+xnw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "D1lR7KUxKWf1/OVTs3x4xw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.Delta.html",
-          "hash": "gfrf16A5g+R2gw9koRp3Hg=="
+          "hash": "GN82m7/x2MT6YxCrad37Gw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -60,7 +60,7 @@
           "hash": "53JvGgDRVaiYwzj+RM6woQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeltaResolver.html",
-          "hash": "MUBwJdAwRUpo9M23Hl6oFA=="
+          "hash": "Adr9+6WkZcsW+gSO0jovfw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ElementCondition.html",
-          "hash": "83+wWGFw3AiftYrfJ7TUFw=="
+          "hash": "Kjjg+Ta6JtmOTNUG4dL7cg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -96,7 +96,7 @@
           "hash": "mjsWQ0Qp5pa+gsTjya5zOg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -108,7 +108,7 @@
           "hash": "Pn6p+6NDha+Lch4vSBfC5A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -120,7 +120,7 @@
           "hash": "J9vMULTg+/dNZNP7YsxKHA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -132,7 +132,7 @@
           "hash": "wP1eubgURiNgOlfHo5qidA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -144,7 +144,7 @@
           "hash": "V9WOkgHuf+fh4z5yM9Q6Yg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -156,7 +156,7 @@
           "hash": "IfEY5wdrlsPWRQw3aokt0w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -168,7 +168,7 @@
           "hash": "/jhatuPbF+Mvm6hQzpVpQQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ListDelta.html",
-          "hash": "0qrL9uJ5pcDRJOEFdPlvlg=="
+          "hash": "8nZKqmVEXni8enzKsTZTXQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ListElementDelta.html",
-          "hash": "8g08ITiK/JXNqxx0g4XFsg=="
+          "hash": "YActgVOIPzpNpfXEQkUaqA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -204,7 +204,7 @@
           "hash": "j+ZK2ADwYj2Bst/aKHmEwA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -216,7 +216,7 @@
           "hash": "/Rde1FhxookID7vX4p4fpQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -228,7 +228,7 @@
           "hash": "i4qk6IKkKNW5CSiUzXGbPA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -240,7 +240,7 @@
           "hash": "mvWKImCKLnzbeiI7z1DLFA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -252,7 +252,7 @@
           "hash": "jMzF2OHQeCBGaX52lUTiyw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -261,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchPair.html",
-          "hash": "liqY2GU0UOKvIiLH3C8n7Q=="
+          "hash": "Lcp1ngF5MfjH/BATsXxzWg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -273,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchStack.html",
-          "hash": "xMyNEI7/E7d3jKHDRc0/4g=="
+          "hash": "J4L1+Ml64e2bacjljOhIOQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -288,7 +288,7 @@
           "hash": "ovuk2Gds6Y1EQdxYjMLfPQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -300,7 +300,7 @@
           "hash": "F1C3yxe8Q70ET2uSdai0rg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -312,7 +312,7 @@
           "hash": "Vqw0vh6TEj66goWr7trVfA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ModelMapper.html",
-          "hash": "cVzwBIJ94dXwb5vOBe6dcA=="
+          "hash": "SsFV466qOkomH0tpAypH2A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -336,7 +336,7 @@
           "hash": "2o/82708Zk3wooZHM/2K0Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -345,22 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.PropertyDelta.html",
-          "hash": "N7qi1BXhh4AAVywn+NGgaw=="
+          "hash": "dG84wLBeZbGrolNhznE3Vg=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ReflectionHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ReflectionHelper.html",
-          "hash": "SK4P21ldV1piVJnXz3EdeA=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -369,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.RemoveElementWithValue.html",
-          "hash": "mEUrVAdpFRALcJ8vBJnJRQ=="
+          "hash": "UrH2q/CjgRhX6ptq4+6TtA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -384,7 +372,7 @@
           "hash": "Kq4ik/0Uu+c+ww4vD4VOQQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -396,7 +384,7 @@
           "hash": "ENCHdiPa0vbTemsH+gDwgg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -420,7 +408,7 @@
           "hash": "DHvQLzpZ6ga5iQX0eNFoFw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -463,8 +451,7 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build"
       },
       "processors": {
@@ -474,19 +461,19 @@
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build"
         }
       }
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing"
       },
       "processors": {}

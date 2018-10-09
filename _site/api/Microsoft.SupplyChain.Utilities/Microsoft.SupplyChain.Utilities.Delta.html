@@ -73,7 +73,11 @@
   
   <h1 id="Microsoft_SupplyChain_Utilities_Delta" data-uid="Microsoft.SupplyChain.Utilities.Delta" class="text-break">Class Delta
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Delta represents the comparison of differences between all the property values of two objects (left, right) of the same type.
+Delta's PropertyDelta tree is pruned when the left and right property values are deep identical.
+When pruned, the PropertyDelta will still appear in the parent Delta PropertyDeltas list with the IsLeftAndRightTheSame == true.
+However, any Delta with IsLeftAndRightTheSame == true will not have any PropertyDeltas of its own.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>

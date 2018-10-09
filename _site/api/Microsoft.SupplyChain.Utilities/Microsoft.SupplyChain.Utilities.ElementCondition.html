@@ -73,7 +73,13 @@
   
   <h1 id="Microsoft_SupplyChain_Utilities_ElementCondition" data-uid="Microsoft.SupplyChain.Utilities.ElementCondition" class="text-break">Class ElementCondition
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>ElementCondition is a strategy to remove elements within the Json that meet a condition.
+The Path property identifies where within the Json the conditional element will appear.
+By default, MatchPathExactly is false which means an element need only match the end of the elements full path.
+For example, an element at path Foo.Bar.Wak would match a path &quot;Bar.Wak&quot; which allows for Bar.Wak's to be found scattered throughout the structure
+If MatchPathExactly is set to true then Foo.Bar.Wak would only be matched by the full path of &quot;Foo.Bar.Wak&quot;.
+Diferent types of conditions are created by different classes that derive from the abstract ElementCondition class (strategy pattern).</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>

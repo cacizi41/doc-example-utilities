@@ -73,7 +73,12 @@
   
   <h1 id="Microsoft_SupplyChain_Utilities_MatchStack" data-uid="Microsoft.SupplyChain.Utilities.MatchStack" class="text-break">Class MatchStack
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>The MatchStack is similar to a call stack created by a compiler.<br>
+ModelMapper.Map_Recur is a recursive call where the &quot;to&quot; object is instantiated with values of the &quot;from&quot; object
+At each level in the call stack, MatchStack tracks the two objects (to and from) being mapped.
+The MatchStack is primarily used by MappingMethods attempting to map objects that are not matched to them in the recursion.
+These MappingMethods can use the MapContext.MatchStack parameter passed to them to locate other contextual objects they need to perform the map.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>

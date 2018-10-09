@@ -662,7 +662,8 @@
   
   <a id="Microsoft_SupplyChain_Utilities_MatchPair_GetNotCartographerProperty_" data-uid="Microsoft.SupplyChain.Utilities.MatchPair.GetNotCartographerProperty*"></a>
   <h4 id="Microsoft_SupplyChain_Utilities_MatchPair_GetNotCartographerProperty_System_Reflection_PropertyInfo_System_Type_" data-uid="Microsoft.SupplyChain.Utilities.MatchPair.GetNotCartographerProperty(System.Reflection.PropertyInfo,System.Type)">GetNotCartographerProperty(PropertyInfo, Type)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the property on the type that is not the cartographer that maps to the cartographers property.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -709,7 +710,11 @@
   
   <a id="Microsoft_SupplyChain_Utilities_MatchPair_GetProperty_" data-uid="Microsoft.SupplyChain.Utilities.MatchPair.GetProperty*"></a>
   <h4 id="Microsoft_SupplyChain_Utilities_MatchPair_GetProperty_System_Type_System_String_" data-uid="Microsoft.SupplyChain.Utilities.MatchPair.GetProperty(System.Type,System.String)">GetProperty(Type, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Walks up the inheritance heirarchy looking for a property with the name specified at each level
+This is neccessary because, when the &quot;override&quot; or &quot;new&quot; keyword is on a property accessor, several properties have the same name.
+In these cases, the Type.GetProperty(string name) method throws and &quot;Ambiguous...&quot; exception
+Walking from the most derived type up the heirachy guarantees that the most overridden if found first.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -798,7 +803,10 @@
   
   <a id="Microsoft_SupplyChain_Utilities_MatchPair_IsPropertyMappedToThis_" data-uid="Microsoft.SupplyChain.Utilities.MatchPair.IsPropertyMappedToThis*"></a>
   <h4 id="Microsoft_SupplyChain_Utilities_MatchPair_IsPropertyMappedToThis_System_Reflection_PropertyInfo_" data-uid="Microsoft.SupplyChain.Utilities.MatchPair.IsPropertyMappedToThis(System.Reflection.PropertyInfo)">IsPropertyMappedToThis(PropertyInfo)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sometimes a single property in one model maps to the whole object of the other model.
+This occurs primarily when an inheritance in one model maps to an aggregation in the other.
+When this occurs, a [Map(&quot;this&quot;)] should be placed on the property</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

@@ -80,13 +80,28 @@
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeferredInvocation.html">DeferredInvocation</a></h4>
       <section></section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.Delta.html">Delta</a></h4>
-      <section></section>
+      <section><p>Delta represents the comparison of differences between all the property values of two objects (left, right) of the same type.
+Delta's PropertyDelta tree is pruned when the left and right property values are deep identical.
+When pruned, the PropertyDelta will still appear in the parent Delta PropertyDeltas list with the IsLeftAndRightTheSame == true.
+However, any Delta with IsLeftAndRightTheSame == true will not have any PropertyDeltas of its own.</p>
+</section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeltaIgnoreAttribute.html">DeltaIgnoreAttribute</a></h4>
       <section></section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeltaResolver.html">DeltaResolver</a></h4>
-      <section></section>
+      <section><p>DeltaResolver exists to calculate the difference between two hierarchical object graphs rooted by the left and right parameters of the Resolve method
+It does not by itself do anything with the Delta it calculates and returns from the Resolve method.
+It is intended to be used in conjunction with classes such as DeltaRecorder and DeltaRestorer.
+Notice that it exists in the Extensions namespace because is has no dependencies on the definitions of the input classes.
+However, it may be necessary to provide your own IsEqualsStrategy instead of the default IsEquals method to adapt to your libraries design patterns for identity.</p>
+</section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ElementCondition.html">ElementCondition</a></h4>
-      <section></section>
+      <section><p>ElementCondition is a strategy to remove elements within the Json that meet a condition.
+The Path property identifies where within the Json the conditional element will appear.
+By default, MatchPathExactly is false which means an element need only match the end of the elements full path.
+For example, an element at path Foo.Bar.Wak would match a path &quot;Bar.Wak&quot; which allows for Bar.Wak's to be found scattered throughout the structure
+If MatchPathExactly is set to true then Foo.Bar.Wak would only be matched by the full path of &quot;Foo.Bar.Wak&quot;.
+Diferent types of conditions are created by different classes that derive from the abstract ElementCondition class (strategy pattern).</p>
+</section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.InvokeAttribute.html">InvokeAttribute</a></h4>
       <section></section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.IsValueTypeAttribute.html">IsValueTypeAttribute</a></h4>
@@ -96,9 +111,12 @@
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.KnownTypesBinder.html">KnownTypesBinder</a></h4>
       <section></section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ListDelta.html">ListDelta</a></h4>
-      <section></section>
+      <section><p>ListDelta represents the comparison of two lists of the same type.</p>
+</section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ListElementDelta.html">ListElementDelta</a></h4>
-      <section></section>
+      <section><p>ListElementDelta represents the comparison of one list element between two lists (left, right) of the same type.
+Only one of the properties (LeftOnlyElement, RightOnlyElement, ExistsInBothDelta) should be non-null depending on which of the lists contains the element.</p>
+</section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MapContext.html">MapContext</a></h4>
       <section></section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MappingMethod.html">MappingMethod</a></h4>
@@ -110,7 +128,12 @@
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchPair.html">MatchPair</a></h4>
       <section></section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchStack.html">MatchStack</a></h4>
-      <section></section>
+      <section><p>The MatchStack is similar to a call stack created by a compiler.<br>
+ModelMapper.Map_Recur is a recursive call where the &quot;to&quot; object is instantiated with values of the &quot;from&quot; object
+At each level in the call stack, MatchStack tracks the two objects (to and from) being mapped.
+The MatchStack is primarily used by MappingMethods attempting to map objects that are not matched to them in the recursion.
+These MappingMethods can use the MapContext.MatchStack parameter passed to them to locate other contextual objects they need to perform the map.</p>
+</section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchTypeAttribute.html">MatchTypeAttribute</a></h4>
       <section></section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.MatchTypes.html">MatchTypes</a></h4>
@@ -122,9 +145,12 @@
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ModelMapperIgnoreAttribute.html">ModelMapperIgnoreAttribute</a></h4>
       <section></section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.PropertyDelta.html">PropertyDelta</a></h4>
-      <section></section>
+      <section><p>PropertyDelta represents the comparison of the same property on two objects of the same type
+Only one of the properties ValueDelta or ListElementDeltas will have values depending on whether the property is a list (IsList) or single valued</p>
+</section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.RemoveElementWithValue.html">RemoveElementWithValue</a></h4>
-      <section></section>
+      <section><p>RemoveElementWithValue is an ElmeentCondition that removes elements whose value matches any of the values provided.</p>
+</section>
       <h4><a class="xref" href="Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.TypeClassification.html">TypeClassification</a></h4>
       <section></section>
     <h3 id="enums">Enums
