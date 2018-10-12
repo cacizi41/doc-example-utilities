@@ -1,0 +1,10 @@
+{
+  "HelloDocfx": "HelloDocfx.yml",
+  "HelloDocfx.Class2": "HelloDocfx.Class2.yml",
+  "HelloDocfx.Class2.#ctor(System.Int32)": "HelloDocfx.Class2.yml",
+  "HelloDocfx.Class2.ConvertToDouble": "HelloDocfx.Class2.yml",
+  "HelloDocfx.Class2.InnerClass": "HelloDocfx.Class2.InnerClass.yml",
+  "HelloDocfx.Class2.InnerClass.Name": "HelloDocfx.Class2.InnerClass.yml",
+  "HelloDocfx.Class2.SetInnerClass(System.String,HelloDocfx.Class2.InnerClass)": "HelloDocfx.Class2.yml",
+  "HelloDocfx.Class2.Value": "HelloDocfx.Class2.yml"
+}

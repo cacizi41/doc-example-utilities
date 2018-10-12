@@ -5,11 +5,59 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-2/HelloDocfx.Class2.InnerClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-2/HelloDocfx.Class2.InnerClass.html",
+          "hash": "gfXI7fj7OHG4/ff8MEgqtA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-2/HelloDocfx.Class2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-2/HelloDocfx.Class2.html",
+          "hash": "UxenidgCsxv40DNplyHT1w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-2/HelloDocfx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-2/HelloDocfx.html",
+          "hash": "zlukmKvgOjw9p8w7aSSBAA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api-2/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-2/toc.html",
+          "hash": "E3uJ8WC2xZKLbZTyoOcWJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Microsoft.SupplyChain.Utilities.yml",
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.SupplyChain.Utilities.html",
-          "hash": "qvY7JnYzO89CEOQwTaEMEw=="
+          "hash": "hHj4sbLTUjDaRkUEF4AMzQ=="
         }
       },
       "is_incremental": true,
@@ -69,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.DeltaResolver.html",
-          "hash": "Adr9+6WkZcsW+gSO0jovfw=="
+          "hash": "bjuHFkAF+nEO6rgdbNUv8A=="
         }
       },
       "is_incremental": true,
@@ -353,6 +401,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ReflectionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.ReflectionHelper.html",
+          "hash": "SK4P21ldV1piVJnXz3EdeA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Microsoft.SupplyChain.Utilities/Microsoft.SupplyChain.Utilities.RemoveElementWithValue.yml",
       "output": {
         ".html": {
@@ -393,10 +453,46 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ahAx0pOcsiedHFg7KAQeqA=="
+          "hash": "1VK4G0sgSPsl9wwFh4jReg=="
         }
       },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Details1.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Details1.html",
+          "hash": "3FHDuRukUFz7MI6oSgnZfQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Details2.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Details2.html",
+          "hash": "3FHDuRukUFz7MI6oSgnZfQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Details3.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Details3.html",
+          "hash": "3FHDuRukUFz7MI6oSgnZfQ=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -417,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+          "hash": "SOQ+VGxIgQnnWxzVyLElFQ=="
         }
       },
       "is_incremental": false,
@@ -432,7 +528,7 @@
           "hash": "vOf2CnJ843qe1BJxbLyHvw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -441,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+          "hash": "H/VFvl20sd6ZiR2/QkZeiA=="
         }
       },
       "is_incremental": false,

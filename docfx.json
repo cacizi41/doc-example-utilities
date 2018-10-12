@@ -11,6 +11,10 @@
       "dest": "api",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
+    },
+    {
+      "src": "src2/**.cs",
+      "dest": "api-2"
     }
   ],
   "build": {
@@ -27,6 +31,11 @@
           "articles/**/toc.yml",
           "toc.yml",
           "*.md"
+        ]
+      },
+      {
+        "files":[
+          "api-2/**.yml"
         ]
       }
     ],

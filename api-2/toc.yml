@@ -1,0 +1,8 @@
+### YamlMime:TableOfContent
+- uid: HelloDocfx
+  name: HelloDocfx
+  items:
+  - uid: HelloDocfx.Class2
+    name: Class2
+  - uid: HelloDocfx.Class2.InnerClass
+    name: Class2.InnerClass
